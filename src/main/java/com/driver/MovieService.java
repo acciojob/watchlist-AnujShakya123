@@ -1,9 +1,11 @@
 package com.driver;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
+
 import java.util.List;
 import java.util.Objects;
-
+@Repository
 public class MovieService {
     @Autowired
     MovieRepository movieRepository;
